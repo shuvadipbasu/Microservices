@@ -1,0 +1,5 @@
+package com.micro.beans;
+
+public class LimitServiceBean {
+
+}

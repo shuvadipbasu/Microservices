@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\GitRepos\Microservices\.metadata\.plugins\org.eclipse.jdt.core
+3558407393.index
+3443245473.index
+3992029131.index

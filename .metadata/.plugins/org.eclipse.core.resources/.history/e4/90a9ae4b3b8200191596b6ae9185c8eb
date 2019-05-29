@@ -1,0 +1,5 @@
+package com.micro.config.props;
+
+public class Configuration {
+
+}
