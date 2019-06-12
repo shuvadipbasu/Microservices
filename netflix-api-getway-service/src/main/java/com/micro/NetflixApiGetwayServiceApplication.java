@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableZuulProxy
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.micro.filters"})
+@ComponentScan(basePackages = {"com.micro.filters","com.micro.config"})
 public class NetflixApiGetwayServiceApplication {
 
 	public static void main(String[] args) {
