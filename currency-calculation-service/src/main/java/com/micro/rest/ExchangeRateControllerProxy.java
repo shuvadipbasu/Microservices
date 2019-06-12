@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import com.micro.bean.ExchangeData;
 
 //@FeignClient(name="currency-exchange-service",url="localhost:8200")
-@FeignClient(name="currency-exchange-service")
+@FeignClient(name="netflix-api-gateway-service")
 @RibbonClient(name="currency-exchange-service")
 public interface ExchangeRateControllerProxy {
 	
-	@GetMapping("/exchange-rates/{from}/to/{to}")
+	@GetMapping("/currency-exchange-service/exchange-rates/{from}/to/{to}")
 	public ExchangeData getRate(@PathVariable("from") String from, @PathVariable("to") String to);
 
 }
